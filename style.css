@@ -33,10 +33,18 @@
     width: 78px;
     background-color: rgb(160, 160, 160);
     padding: 6px 14px ;
+    
 }
-.slidebar.active{
+.slidebar:hover {
     width: 240px;
+    transition: all;
+    
 }
+
+.Home::after {
+    color: #fff;
+}
+
 .slidebar .logo_content .logo {
     color: black;
     display: flex;
