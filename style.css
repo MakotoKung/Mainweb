@@ -21,12 +21,3 @@
     }
 }
 
-.background{
-        background-color:black;
-        height: 100%;
-        width: 100%;
-        top: 10px;
-        border-color: rgb(red, green, blue);
-        z-index: 0;
-        position: absolute;
-}
