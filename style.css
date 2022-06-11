@@ -35,17 +35,15 @@
     padding: 6px 14px ;
     
 }
-.slidebar:hover {
+.active {
     width: 240px;
     transition: all;
     
 }
 
-.Home::after {
-    color: #fff;
-}
 
-.slidebar .logo_content .logo {
+
+.btn {
     color: black;
     display: flex;
     height: 80px;
@@ -133,4 +131,3 @@
     line-height: 50px;
     text-align: center;
 }
-

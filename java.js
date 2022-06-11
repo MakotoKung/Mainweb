@@ -1,10 +1,10 @@
-let btn = document.querySelector("#btn");
-let slidebar = document.querySelector(".slidebar");
+var btn = document.querySelector("#btn")
+var slidebar = document.querySelector(".slidebar")
 
-function click() {
-    slidebar.classList.add('active');
-}
-btn.onclick = click() 
+btn.addEventListener('click',() => {
+    slidebar.classList.toggle('active');
+});
+
 
 
 
