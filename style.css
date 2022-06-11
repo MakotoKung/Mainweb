@@ -30,10 +30,12 @@
 .slidebar {
     position: fixed;
     height: 100%;
-    width: 240px;
+    width: 78px;
     background-color: rgb(160, 160, 160);
     padding: 6px 14px ;
-
+}
+.slidebar.active{
+    width: 240px;
 }
 .slidebar .logo_content .logo {
     color: black;
@@ -123,3 +125,4 @@
     line-height: 50px;
     text-align: center;
 }
+
