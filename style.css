@@ -1,8 +1,11 @@
-
+body{
+    width: 100%;
+    height: 100%;
+}
 .world { 
     position: fixed;
-    width: 500px;
-    height: 500px;
+    width: 20%;
+    height: 20%;
     top: 700px;
     left: 720px;
     animation: circle 20s linear ;
@@ -30,9 +33,10 @@
 .slidebar {
     position: fixed;
     height: 100%;
-    width: 78px;
+    width: 100px;
     background-color: rgb(160, 160, 160);
     padding: 6px 14px ;
+    
     
 }
 .active {
@@ -48,11 +52,12 @@
     display: flex;
     height: 80px;
     width: 100%;
+    right: 100px;
     align-items: center ;
 }
 .logo_content .logo i{
-    font-size: 80px ;
-    margin-right:5px ;
+    font-size: 70px ;
+    margin-right:10px ;
 
 }
 
@@ -63,7 +68,7 @@
 .sliderbar #btn{
     position: absolute;
     color: lightgreen;
-    left: 90%;
+    left: 88%;
     top:  6px ;
     font-size: 80px;
     height: 50px;
@@ -73,15 +78,15 @@
     transform: translateX(-50%);
 }
 .slidebar ul{
-    margin-top: 10px;
+    margin-top: 5px;
 }
 .slidebar ul li{
     position: relative;
     width: 100%;
-    height: 50px;
-    margin: 0 5px ;
+    height: 70px;
+    margin: 0 20px ;
     list-style: none;
-    line-height: 50px;
+    line-height: 20px;
 }
 .slidebar ul li .tooltip{
     position: absolute;
@@ -115,15 +120,13 @@
     align-items: center ;
     text-decoration: none ;
     transition: all 0.4s ease ;
-    font-size: 30px;
+    font-size: 20px;
 }
 
-.slidebar ul li a :hover{
-    background-color: #fff;
-    color: rgb(160, 160, 160);
 
 
-}
+
+
 .slidebar ul li a i{ 
     height: 50px ;
     min-width: 30px ;
