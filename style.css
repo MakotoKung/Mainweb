@@ -4,12 +4,14 @@ body{
 }
 .world { 
     position: fixed;
-    width: 20%;
-    height: 20%;
-    top: 700px;
-    left: 720px;
+    max-width: 31.25rem;
+    height: 31.25rem;
+    top: 43.75rem;
+    left: 45rem;
+    object-fit: cover;
     animation: circle 20s linear ;
     animation-iteration-count: infinite;
+
 }
 
 @keyframes circle  {
