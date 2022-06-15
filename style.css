@@ -58,16 +58,9 @@
 .wrapper{
     width:100%;
 }
-.img-asd{
-    width: 90px;
-    height: 90px;
-    position: absolute;
-    left: 200px;
-    top: 400px;
-}
+
 .img-info{
 width: 100%;
-background-color: black;
 }
 .img-info h1{
     padding: 20px 30px 20px;
@@ -100,12 +93,7 @@ background-color: black;
         width: 600px;
         margin: 0 auto;
     }
-    .img-asd{
-       display: block;
-       width: 100%;
-       padding-top: 500px;
-      
-}
+
 .img-info h1{
     padding-top: 20px 0px 0px;
 }
@@ -127,11 +115,7 @@ background-color: black;
     .wrapper{
         width: 1000px;
     }
-    .img-asd{
-        padding-top:0px;
-        width: 50%;
-        float: left;
-    }
+   
 .img-info{
     width: 50%;
     float: right;
