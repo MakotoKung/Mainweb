@@ -59,7 +59,8 @@
     width:100%;
 }
 .img-asd{
-    width: 100px;
+    width: auto;
+    
 
 }
 .img-info{
@@ -80,7 +81,10 @@ width: 200px;
     line-height: 24px;
 }
 .img-BCG{
-    width: 200px;
+    width: auto;
+}
+.img-unknown{
+    width: auto;
 }
 @media only screen and(min-width: 768px){
     .wrapper{
@@ -90,7 +94,7 @@ width: 200px;
     .img-asd{
        display: block;
        width: 100%;
-       padding-top: 30px;
+       padding-top: 500px;
 }
 .img-info h1{
     padding-top: 20px 0px 0px;
@@ -104,13 +108,13 @@ width: 200px;
 }
 }
 @media only screen and(min-width: 1000px){
-    wrapper{
+    .wrapper{
         width: 100px;
     }
     .img-asd{
-        padding-top: 0%;
+        padding-top:0%;
         width: 50%;
-        float: right;
+        float: left;
     }
 .img-info{
     width: 50%;
