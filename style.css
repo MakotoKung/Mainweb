@@ -1,13 +1,57 @@
 body{
     width: 100%;
     height: 100%;
+    left: 100%;
+    top: 100%;
 }
 .logo { 
     position: relative;
-    background-color: rgb(8, 41, 95);
-    width: 100%;
-    height: 30%;
-    left: 720px;
-    top: 200px;
+    width: 40%;
+    height: 20%;
+    left: 30%;
+    top: 50%  ;
    
+}
+.intro{
+    opacity: 0;
+    pointer-events: none;
+    animation: fade_out 2s;
+}
+@keyframes fade_out {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+@keyframes fade_in { 
+    from{
+        opacity: 0;
+        
+    }
+    to{
+        animation-delay: 2s;
+        opacity: 1;
+    }
+}
+.deteil { 
+    
+    animation: fade_in 2s;
+
+}
+
+.menubar{
+    position: fixed;
+    background-color: rgb(38, 41, 95);
+    opacity: 0;
+    width: 10%;
+    height: 2%;
+
+}
+.start{ 
+    opacity: 1;
+    animation: fade_in 2s ;
+    animation-delay: 1.5s;
 }
