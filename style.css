@@ -59,7 +59,7 @@
     width:100%;
 }
 .img-asd{
-    width: auto;
+    width: 100px;
     
 }
 .img-info{
@@ -73,7 +73,7 @@ width: 100%;
     line-height: 44px;
 }
 .img-info p {
-    padding: 20px 30px 20px;
+    padding: 0px 30px 20px;
     font-family: 'Mitr', sans-serif;
     font-size: 25px;
     color: #111;
