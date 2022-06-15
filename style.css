@@ -61,10 +61,9 @@
 .img-asd{
     width: auto;
     
-
 }
 .img-info{
-width: 200px;
+width: 100%;
 }
 .img-info h1{
     padding: 20px 30px 20px;
@@ -74,14 +73,16 @@ width: 200px;
     line-height: 44px;
 }
 .img-info p {
-    padding: 0px 30px 20px;
+    padding: 20px 30px 20px;
     font-family: 'Mitr', sans-serif;
     font-size: 25px;
     color: #111;
     line-height: 24px;
 }
 .img-BCG{
-    width: auto;
+    width: 1500px;
+    height: 700px;
+   
 }
 .img-unknown{
     width: auto;
@@ -103,16 +104,22 @@ width: 200px;
     padding-top: 20px 0px 0px;
 }
 .img-BCG{
+    display: block;
+    width: 100%;
+    padding-top: 30px;
+}
+.img-unknown{
+    display: block;
     width: 100%;
     padding-top: 30px;
 }
 }
 @media only screen and(min-width: 1000px){
     .wrapper{
-        width: 100px;
+        width: 1000px;
     }
     .img-asd{
-        padding-top:0%;
+        padding-top:0px;
         width: 50%;
         float: left;
     }
@@ -130,5 +137,10 @@ width: 200px;
     width: 50%;
     padding-top: 0px;
     float: left;
+}
+.img-unknown{
+    padding-top:0px;
+        width: 50%;
+        float: left;
 }
 }
