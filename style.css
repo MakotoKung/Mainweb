@@ -59,8 +59,11 @@
     width:100%;
 }
 .img-asd{
-    width: 100px;
-    
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    left: 20px;
+    top: 200px;
 }
 .img-info{
 width: 100%;
@@ -86,6 +89,8 @@ width: 100%;
 }
 .img-unknown{
     width: auto;
+    left: 250px;
+    position: relative;
 }
 @media only screen and(min-width: 768px){
     .wrapper{
