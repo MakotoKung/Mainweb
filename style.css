@@ -44,14 +44,10 @@
 
 }
 
-.menubar{
-
-
-}
 .start{ 
     opacity: 1;
-    animation: fade_in 2s ;
-    ;
+    pointer-events: none;
+    
 
 }
 
@@ -60,10 +56,12 @@
 }
 .img-asd{
     width: auto;
+    opacity: 0;
     
 }
 .img-info{
 width: 100%;
+opacity: 0;
 }
 .img-info h1{
     padding: 20px 30px 20px;
@@ -82,10 +80,12 @@ width: 100%;
 .img-BCG{
     width: 1500px;
     height: 700px;
+    opacity: 0;
    
 }
 .img-unknown{
     width: auto;
+    opacity: 0;
 }
 @media only screen and(min-width: 768px){
     .wrapper{
@@ -144,3 +144,11 @@ width: 100%;
         float: left;
 }
 }
+
+body.top{
+    opacity: 0;
+}
+body.top.start{
+    opacity: 1;
+}
+
