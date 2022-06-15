@@ -45,39 +45,33 @@
 }
 
 .start{ 
+    animation: fade_in 2s;
     opacity: 1;
-    pointer-events: none;
+    z-index: 99;
     
 
 }
 
 .wrapper{
     width:100%;
+   
 }
 
 
 .img-info{
-width: 100%;
+    width: 100%;
+   
+
 }
 .img-asd{
 
     width: auto;
-    opacity: 0;
+    
+   
+   
     
 }
-.img-info{
-    width: 100%;
-    opacity: 0;
-    width: 90px;
-    height: 90px;
-    position: absolute;
-    left: 200px;
-    top: 400px;
-}
-.img-info{
-width: 100%;
 
-}
 .img-info h1{
     padding: 20px 30px 20px;
     font-family: 'Mitr', sans-serif;
@@ -96,19 +90,21 @@ width: 100%;
 
     width: 1500px;
     height: 700px;
-    opacity: 0;
+    
     width: 700px;
     height: 500px;
     position: relative;
     left: 400px;
+   
 
    
 }
 .img-unknown{
     width: auto;
-    opacity: 0;
+   
     left: 250px;
     position: relative;
+   
 
 }
 @media only screen and(min-width: 768px){
@@ -161,10 +157,7 @@ width: 100%;
 }
 }
 
-body.top{
+
+.op0{
     opacity: 0;
 }
-body.top.start{
-    opacity: 1;
-}
-
