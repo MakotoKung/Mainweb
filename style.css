@@ -1,9 +1,4 @@
-body{
-    width: 100%;
-    height: 100%;
-    left: 100%;
-    top: 100%;
-}
+
 .logo { 
     position: relative;
     width: 40%;
@@ -11,6 +6,13 @@ body{
     left: 30%;
     top: 50%  ;
    
+}
+
+.logo.second{ 
+    position: absolute;
+    top: 100px;
+    width: 1%;
+    height: 2%;
 }
 .intro{
     opacity: 0;
@@ -43,15 +45,12 @@ body{
 }
 
 .menubar{
-    position: fixed;
-    background-color: rgb(38, 41, 95);
-    opacity: 0;
-    width: 10%;
-    height: 2%;
+
 
 }
 .start{ 
     opacity: 1;
     animation: fade_in 2s ;
-    animation-delay: 1.5s;
+    ;
+
 }
