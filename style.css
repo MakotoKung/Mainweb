@@ -82,13 +82,16 @@
 
     width: 1500px;
     height: 700px;
-    
+    margin: 0 auto 0 auto;
+    display: block;
    
 
    
 }
 .img-unknown{
     width: auto;
+    display: block;
+    margin: 0 auto 0 auto
 
 }
 @media only screen and(min-width: 768px){
@@ -106,7 +109,7 @@
 .img-BCG{
     display: block;
     width: 100%;
-    padding-top: 30px;
+    margin: 0 auto 0 auto;
 }
 .img-unknown{
     display: block;
