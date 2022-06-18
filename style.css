@@ -53,8 +53,14 @@
 }
 
 .wrapper{
-    width:100%;
-   
+    margin: 0 auto 0 auto;
+    width: 1500px;
+    height: auto;
+    border: 6px solid #cadef7;
+    border-radius: 20px;
+    background-color: #fff;
+    display: block;
+    transition: .5s;
 }
 
 
@@ -68,14 +74,14 @@
     padding: 20px 30px 20px;
     font-family: 'Mitr', sans-serif;
     font-size: 50px;
-    color: white;
-    line-height: 44px;
+    color: black;
+    line-height: 1.2;
 }
 .img-info p {
     padding: 0px 30px 20px;
     font-family: 'Mitr', sans-serif;
     font-size: 25px;
-    color:white;
+    color:black;
     line-height: 24px;
 }
 .img-BCG{
