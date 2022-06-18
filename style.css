@@ -77,6 +77,13 @@
     color: black;
     line-height: 1.2;
 }
+.img-info h2{
+    padding: 20px 30px 20px;
+    font-family: 'Mitr', sans-serif;
+    font-size: 35px;
+    color: rgb(162, 0, 0);
+    line-height: 1.2;
+}
 .img-info p {
     padding: 0px 30px 20px;
     font-family: 'Mitr', sans-serif;
@@ -109,6 +116,9 @@
 .img-info h1{
     padding-top: 20px 0px 0px;
 }
+.img-info h2{
+    padding-top: 20px 0px 0px;
+}
 .img-info p {
     padding-top: 20px 0px 0px;
 }
@@ -134,6 +144,9 @@
     float: right;
 }
 .img-info h1{
+    padding-top: 20px 0px 0px 30px;
+}
+.img-info h2{
     padding-top: 20px 0px 0px 30px;
 }
 .img-info p {
