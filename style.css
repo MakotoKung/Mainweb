@@ -80,8 +80,8 @@
 }
 .img-BCG{
 
-    width: 1500px;
-    height: 700px;
+    width: auto;
+    
     margin: 0 auto 0 auto;
     display: block;
    
@@ -113,6 +113,7 @@
 }
 .img-unknown{
     display: block;
+    margin: 0 auto 0 auto;
     width: 100%;
     padding-top: 30px;
 }
@@ -135,12 +136,16 @@
 .img-BCG{
     width: 50%;
     padding-top: 0px;
+    display: block;
+    margin: 0 auto 0 auto;
     float: left;
 }
 .img-unknown{
     padding-top:0px;
-        width: 50%;
-        float: left;
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 50%;
+    float: left;
 }
 }
 
