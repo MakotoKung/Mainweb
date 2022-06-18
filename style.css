@@ -63,14 +63,6 @@
    
 
 }
-.img-asd{
-
-    width: auto;
-    
-   
-   
-    
-}
 
 .img-info h1{
     padding: 20px 30px 20px;
@@ -91,20 +83,12 @@
     width: 1500px;
     height: 700px;
     
-    width: 700px;
-    height: 500px;
-    position: relative;
-    left: 400px;
    
 
    
 }
 .img-unknown{
     width: auto;
-   
-    left: 250px;
-    position: relative;
-   
 
 }
 @media only screen and(min-width: 768px){
