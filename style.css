@@ -65,16 +65,17 @@
     animation: zoomin 2s ;
     opacity: 1;
 }
-
-
+.main{
+    max-width: 100rem;
+    margin: 0 auto 0 auto;
+}
 .wrapper{
     margin: 0 auto 0 auto;
-    width: 1500px;
+    width: 93.75rem;
     height: auto;
     border: 6px solid rgb(145, 2, 121);
-    border-radius: 20px;
+    border-radius: 1.25rem;
     background-color: #fff;
-    display: block;
     transition: .5s;
     
 }
@@ -89,106 +90,40 @@
 .img-info h1{
     padding: 20px 30px 20px;
     font-family: 'Mitr', sans-serif;
-    font-size: 50px;
+    font-size: calc(60% + 5.8vmin);
     color: black;
     line-height: 1.2;
 }
 .img-info h2{
     padding: 20px 30px 20px;
     font-family: 'Mitr', sans-serif;
-    font-size: 35px;
+    font-size: calc(60% + 1.8vmin);
     color: rgb(162, 0, 0);
     line-height: 1.2;
 }
 .img-info p {
     padding: 0px 30px 20px;
     font-family: 'Mitr', sans-serif;
-    font-size: 25px;
+    font-size: calc(60% + 1.8vmin);
     color:black;
     line-height: 24px;
+    
     
 }
 .img-BCG{
 
-    width: 50%;
-    height: 50%;
+    width: 50rem;
+    height: 25rem;
     margin: 0 auto 0 auto;
     display: block;
-   
-
-   
 }
 .img-unknown{
-    width: 50%;
-    height: 50%;
+    width: 62.5rem;
+    height: 31.25rem;
     display: block;
     margin: 0 auto 0 auto
 
 }
-@media only screen and(min-width: 768px){
-    .wrapper{
-        width: 600px;
-        margin: 0 auto;
-        
-    }
-
-.img-info h1{
-    padding-top: 20px 0px 0px;
-}
-.img-info h2{
-    padding-top: 20px 0px 0px;
-}
-.img-info p {
-    padding-top: 20px 0px 0px;
-}
-.img-BCG{
-    display: block;
-    width: 100%;
-    margin: 0 auto 0 auto;
-}
-.img-unknown{
-    display: block;
-    margin: 0 auto 0 auto;
-    width: 100%;
-    padding-top: 30px;
-}
-}
-@media only screen and(min-width: 1000px){
-    .wrapper{
-        width: 1000px;
-    }
-   
-.img-info{
-    width: 50%;
-    float: right;
-}
-.img-info h1{
-    padding-top: 20px 0px 0px 30px;
-}
-.img-info h2{
-    padding-top: 20px 0px 0px 30px;
-}
-.img-info p {
-    padding-top: 20px 0px 0px 30px;
-    display: block;
-    float: right;
-}
-.img-BCG{
-    width: 50%;
-    padding-top: 0px;
-    display: block;
-    margin: 0 auto 0 auto;
-    float: left;
-}
-.img-unknown{
-    padding-top:0px;
-    display: block;
-    margin: 0 auto 0 auto;
-    width: 50%;
-    float: left;
-}
-}
-
 
 .op0{
     opacity: 0;
@@ -217,3 +152,7 @@
     }
 } 
 
+.background{
+    width: 120rem;
+    height: 200rem;
+}
