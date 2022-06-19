@@ -76,7 +76,7 @@
     background-color: #fff;
     display: block;
     transition: .5s;
-    float: left;
+    
 }
 
 
@@ -106,7 +106,7 @@
     font-size: 25px;
     color:black;
     line-height: 24px;
-    float: left;
+    
 }
 .img-BCG{
 
@@ -129,6 +129,7 @@
     .wrapper{
         width: 600px;
         margin: 0 auto;
+        float: left;
     }
 
 .img-info h1{
