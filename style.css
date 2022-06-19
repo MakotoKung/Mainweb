@@ -41,7 +41,7 @@
 
 @keyframes zoomin { 
     from { 
-        transform: scale(4);
+        transform: scale(2);
     }
     to{ 
         transform: scale(1);
