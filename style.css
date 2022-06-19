@@ -61,6 +61,7 @@
     background-color: #fff;
     display: block;
     transition: .5s;
+    float: left;
 }
 
 
@@ -90,8 +91,7 @@
     font-size: 25px;
     color:black;
     line-height: 24px;
-    margin: 0 auto 0 auto;
-    text-align: center;
+    float: left;
 }
 .img-BCG{
 
@@ -124,14 +124,17 @@
 }
 .img-info p {
     padding-top: 20px 0px 0px;
+    float: left;
 }
 .img-BCG{
     display: block;
+    float: left;
     width: 100%;
     margin: 0 auto 0 auto;
 }
 .img-unknown{
     display: block;
+    float: left;
     margin: 0 auto 0 auto;
     width: 100%;
     padding-top: 30px;
