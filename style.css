@@ -129,7 +129,7 @@
     .wrapper{
         width: 600px;
         margin: 0 auto;
-        float: left;
+        
     }
 
 .img-info h1{
@@ -140,17 +140,14 @@
 }
 .img-info p {
     padding-top: 20px 0px 0px;
-    float: left;
 }
 .img-BCG{
     display: block;
-    float: left;
     width: 100%;
     margin: 0 auto 0 auto;
 }
 .img-unknown{
     display: block;
-    float: left;
     margin: 0 auto 0 auto;
     width: 100%;
     padding-top: 30px;
@@ -173,6 +170,8 @@
 }
 .img-info p {
     padding-top: 20px 0px 0px 30px;
+    display: block;
+    float: right;
 }
 .img-BCG{
     width: 50%;
