@@ -6,6 +6,10 @@ var test3 = document.getElementById('3');
 var test4 = document.getElementById('4');
 var button = document.getElementById('button');
 var wrapper = document.getElementById('zoomin');
+var bt1 = document.getElementById('b1');
+var bt2 = document.getElementById('b2');
+var bt3 = document.getElementById('b3');
+
 window.onload = function()
 {
    setTimeout(function(){
@@ -31,7 +35,15 @@ window.onload = function()
   setTimeout(function(){
    wrapper.classList.add('bt-zoom')
   },4000);
-
+  setTimeout(function(){
+   bt1.classList.add('bt-zoom1')
+  },2000);
+  setTimeout(function(){
+   bt2.classList.add('bt-zoom2')
+  },2000);
+  setTimeout(function(){
+   bt3.classList.add('bt-zoom3')
+  },2000);
 };
 
 

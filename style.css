@@ -63,7 +63,22 @@
 
 .bt-zoom{
     animation: zoomin 2s ;
+    
     opacity: 1;
+}
+
+.bt-zoom1{
+    animation: zoomin 4s;
+    animation-delay: 1s;
+}
+.bt-zoom2{
+    animation: zoomin 4s ;
+    animation-delay: 1.6s;
+
+}
+.bt-zoom3{
+    animation: zoomin 4s ;
+    animation-delay: 2s;
 }
 .main{
     max-width: 100rem;
