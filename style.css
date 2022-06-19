@@ -38,6 +38,15 @@
         opacity: 1;
     }
 }
+
+@keyframes zoomin { 
+    from { 
+        transform: scale(2);
+    }
+    to{ 
+        transform: scale(1);
+    }
+}
 .deteil { 
     
     animation: fade_in 2s;
@@ -51,6 +60,12 @@
     
 
 }
+
+.bt-zoom{
+    animation: zoomin 2s ;
+    opacity: 1;
+}
+
 
 .wrapper{
     margin: 0 auto 0 auto;

@@ -4,7 +4,8 @@ var test = document.getElementById('1');
 var test2 = document.getElementById('2');
 var test3 = document.getElementById('3');
 var test4 = document.getElementById('4');
-
+var button = document.getElementById('button');
+var wrapper = document.getElementById('zoomin');
 window.onload = function()
 {
    setTimeout(function(){
@@ -24,7 +25,12 @@ window.onload = function()
    },4000); setTimeout(function(){
     test4.classList.add('start');
    },4000);
-  
+   setTimeout(function(){
+      button.classList.add('bt-zoom')
+   },4000);
+  setTimeout(function(){
+   wrapper.classList.add('bt-zoom')
+  },4000);
 
 };
 
