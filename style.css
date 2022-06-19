@@ -200,3 +200,21 @@
     bottom: 200px;
 }
 
+.circle { 
+    position: absolute;
+    left: 0px;
+    bottom: 500px ;
+    animation: left_right 5s ;
+}
+
+@keyframes left_right{
+    0%{
+        transform: rotateX(50px);
+        animation-delay: 3s;
+    }
+    100%{
+        transform: rotateX(60px);
+        animation-delay: 2s;
+    }
+} 
+
