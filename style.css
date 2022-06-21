@@ -202,7 +202,7 @@
 
 .grid{ 
     display: grid;
-    grid-template-columns: 400px 400px 400px ;
+    grid-template-columns: 200px 200px 200px ;
 }
 .button-1{
     position: relative;
