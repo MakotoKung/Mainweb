@@ -91,7 +91,6 @@
     min-width: 10%;
     max-height: 100%;
     min-height: 50%;
-    
     border: 6px solid rgb(145, 2, 121);
     border-radius: 1.25rem;
     background-color: #fff;
@@ -100,11 +99,10 @@
 }
 .wrapper-in{
     max-width: 75%;
-    min-width: 10%;
+    min-width: 50%;
     max-height: 100%;
     min-height: 50%;
     margin-left: 0px ;
-    max-width: ;
     border: 6px solid rgb(145, 2, 121);
     border-radius: 1.25rem;
     background-color: #fff;
@@ -194,6 +192,32 @@
 }
 
 .button{
-    min-width: 15%;
-    width: fit-content;
+    position: relative;
+    max-width: 100%;
+    min-width: 2%;
+    display: grid;
+    right: 25% ;
+    z-index: 5;
+}
+
+.grid{ 
+    display: grid;
+    grid-template-columns: 400px 400px 400px ;
+}
+.button-1{
+    position: relative;
+    max-width: 100%;
+    min-width: 2%;
+    display: grid;
+    right: 25% ;
+    z-index: 5;
+}
+.button-2{
+    position: relative ;
+    max-width: 100%;
+    min-width: 2%;
+    display: grid;
+    right: 25%;
+    z-index: 5;
+
 }
